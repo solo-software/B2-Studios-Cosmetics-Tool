@@ -1,0 +1,193 @@
+:root{
+  --background-colour: #454545;
+  --font-colour: #9DCBBA;
+  --highlight-colour: #ABEBD2;
+
+  --bodyColour: #FFFFFF;
+  --hatColour: #FFFFFF;
+  --accessoryColour: #FFFFFF;
+  --finColour: #FFFFFF;
+  --eyewearColour: #FFFFFF;
+
+  --mouthType: url("../media/cosmetic-previews/none.png");
+  --hatType: url("../media/cosmetic-previews/none.png");
+  --accessoryType: url("../media/cosmetic-previews/none.png");
+  --finType: url("../media/cosmetic-previews/none.png");
+  --eyewearType: url("../media/cosmetic-previews/none.png");
+
+  --dropdownWidth: 0vw;
+  --dropdownHeight: 0vw;
+}
+body {
+  background-color: var(--background-colour);
+  color: var(--font-colour);
+  font-family: Josefin Sans Bold;
+}
+.title{
+  text-align: center;
+  font-size: 10vh;
+  margin-top: 2.5vh;
+  margin-bottom: 1vh;
+}
+.title-divider{
+  background-color: var(--highlight-colour);
+  width: 50vw;
+  height: 1vh;
+  border-radius: 0.5vh;
+  margin: auto;
+}
+.subtitle-container{
+  max-width: 60vw;
+  margin: auto;
+  text-align: center;
+}
+.subtitle{
+  font-size: 3vh;
+}
+.cosmetic-selector-container{
+  margin-left: 2vw;
+  font-size: 8vh;
+}
+.cosmetic-selector-title{
+  display: inline-block;
+  max-width: 18vw;
+  width: 100%;
+}
+.colour-selector{
+  border-width: 0.5vw;
+  border-color: var(--font-colour);
+  border-style: solid;
+  padding-left: 4vw;
+  padding-right: 4vw;
+  padding-top: 4vw;
+  padding-bottom: 4vw;
+  margin-left: 2vw;
+  border-radius: 1vw;
+  margin: 0.5vw;
+  vertical-align: middle;
+}
+.colour-selector:hover{
+  border-color: var(--highlight-colour);
+}
+.cosmetic-selector{
+  border-width: 0.5vw;
+  border-color: var(--font-colour);
+  border-style: solid;
+  padding-left: 4vw;
+  padding-right: 4vw;
+  padding-top: 4vw;
+  padding-bottom: 4vw;
+  border-radius: 1vw;
+  margin: 0.5vw;
+  background-repeat: no-repeat;
+  background-size: cover;
+  vertical-align: middle;
+}
+.cosmetic-selector:hover{
+  border-color: var(--highlight-colour);
+}
+.cosmetic-type-container{
+  width: 8vw;
+  height: 8vw;
+  border-radius: 1vw;
+  border-width: 0vw;
+  border-style: solid;
+  border-color: var(--font-colour);
+  display: inline-block;
+  -webkit-transition: all 0.25s ease-in-out;
+  -moz-transition: all 0.25s ease-in-out;
+  -o-transition: all 0.25s ease-in-out;
+  transition: all 0.25s ease-in-out;
+}
+.expanded-cosmetic-type-container{
+  width: var(--dropdownWidth);
+  height: var(--dropdownHeight);
+  border-width: 0.5vw;
+  -webkit-transition: all 0.25s ease-in-out;
+  -moz-transition: all 0.25s ease-in-out;
+  -o-transition: all 0.25s ease-in-out;
+  transition: all 0.25s ease-in-out;
+  display: inline-block;
+  vertical-align: top;
+}
+#generate-button{
+  border-width: 0.5vw;
+  border-color: var(--font-colour);
+  border-style: solid;
+  margin-left: 2vw;
+  margin-top: 4vw;
+  margin-bottom: 4vw;
+  border-radius: 1vw;
+  padding-left: 2vw;
+  padding-right: 2vw;
+  padding-top: 1vw;
+  padding-bottom: 1vw;
+  font-family: Josefin Sans Bold;
+  font-size: 8vh;
+  color: var(--font-colour);
+  background-color: var(--background-colour);
+  display: inline-block;
+  vertical-align: middle;
+}
+#generate-button:hover{
+  color: var(--highlight-colour);
+  border-color: var(--highlight-colour);
+}
+#generated-string{
+  display: inline-block;
+  vertical-align: middle;
+  margin: none;
+  margin-left: 2vw;
+  font-size: 1.4vw;
+}
+#body-colour-selector{
+  background-color: var(--bodyColour);
+}
+#hat-colour-selector{
+  background-color: var(--hatColour);
+}
+#accessory-colour-selector{
+  background-color: var(--accessoryColour);
+}
+#fin-colour-selector{
+  background-color: var(--finColour);
+}
+#eyewear-colour-selector{
+  background-color: var(--eyewearColour);
+}
+#mouth-type-selector{
+  background-image: var(--mouthType);
+}
+#hat-type-selector{
+  background-image: var(--hatType);
+}
+#accessory-type-selector{
+  background-image: var(--accessoryType);
+}
+#fin-type-selector{
+  background-image: var(--finType);
+}
+#eyewear-type-selector{
+  background-image: var(--eyewearType);
+}
+@font-face {
+  font-family: Josefin Sans;
+  src: url('../fonts/JosefinSans-Regular.ttf');
+}
+@font-face {
+  font-family: Josefin Sans Bold;
+  src: url('../fonts/JosefinSans-Bold.ttf');
+}
+::-webkit-scrollbar {
+  width: 1vw;
+}
+::-webkit-scrollbar-track {
+  background: var(--background-colour);
+}
+::-webkit-scrollbar-thumb {
+  background: var(--font-colour);
+  border-radius: 0.5vw;
+}
+::-webkit-scrollbar-thumb:hover {
+  background: var(--highlight-colour);
+}
