@@ -46,7 +46,7 @@ body {
 }
 .cosmetic-selector-container{
   margin-left: 2vw;
-  font-size: 8vh;
+  font-size: 4vw;
 }
 .cosmetic-selector-title{
   display: inline-block;
@@ -123,7 +123,7 @@ body {
   padding-top: 1vw;
   padding-bottom: 1vw;
   font-family: Josefin Sans Bold;
-  font-size: 8vh;
+  font-size: 4vw;
   color: var(--font-colour);
   background-color: var(--background-colour);
   display: inline-block;
