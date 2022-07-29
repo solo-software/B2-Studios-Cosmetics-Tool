@@ -31,7 +31,7 @@ function showCosmeticTypes(cosmeticType){
     expanded = true;
     var cosmeticTypeArray = window[cosmeticType];
     var columns = Math.ceil(cosmeticTypeArray.length / 4);
-    var rows = Math.ceil(cosmeticTypeArray / columns);
+    var rows = Math.ceil(cosmeticTypeArray.length / columns);
     document.querySelector(":root").style.setProperty("--dropdownWidth", (columns * 10).toString() + "vw");
     document.querySelector(":root").style.setProperty("--dropdownHeight", (rows * 10).toString() + "vw");
     var newInnerHTML = '<button class="cosmetic-selector" onClick="selectCosmeticType(\'' + cosmeticType + '\', \'' + window[cosmeticType + 'Active'] + '\')" style="background-image: url(\'media/cosmetic-previews/' + cosmeticType + '/' + cosmeticType + '-' + window[cosmeticType + 'Active'] + '.png\')"></button>'
