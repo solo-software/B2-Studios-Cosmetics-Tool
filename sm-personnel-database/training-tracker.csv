@@ -1,0 +1,61 @@
+SM - TT,"
+  Enter C for Complete, P for In-Progress, B for Behind, and R for Requested. 
+",,,,,,,,,,,,,,,,,,,,,,,,,,,
+Username,Basic Training,,,Entry Level,,,,,,,Level 2,,,,Level 3,,,,Level 4,,Level 5,,,,Complete,In-Progress,Behind,Requested
+,BIT,AIT,,G,AR,LAT,M,HAT,MG,,CMT,EXPL,FC,,JTAC,CMO,FO,,TL,,PL,,Notes,,C,P,B,R
+,Apollo,,,,,,,,,,,,,,,,,,,,,,,,,,,
+BJS,C,C,,C,C,C,C,C,C,,,C,,,C,C,C,,C,,C,,,,14,0,0,0
+Professor,C,C,,C,C,C,C,C,C,,C,C,,,C,C,C,,C,,,,,,14,0,0,0
+Triumph,C,C,,C,C,C,C,C,C,,C,,,,P,C,C,,,,,,,,11,1,0,0
+Curtis,C,C,,C,C,C,C,C,C,,C,C,,,C,,C,,C,,,,,,13,0,0,0
+Spring,C,C,,C,C,C,C,C,C,,C,,,,,,,,,,,,,,9,0,0,0
+Eyeless,C,C,,C,C,C,C,C,C,,C,C,,,C,,,,,,,,,,11,0,0,0
+,Ares,,,,,,,,,,,,,,,,,,,,,,,,,,,
+Professor,C,C,,C,C,C,C,C,C,,C,C,,,C,C,C,,C,,,,Acting Teamleader,,14,0,0,0
+SOLO,C,C,,C,C,C,C,C,C,,C,C,,,,,C,,R,,,,,,11,0,0,1
+Panzershrek,C,C,,R,C,C,R,C,C,,R,C,,,R,,R,,,,,,,,7,0,0,5
+ALJXT,C,C,,C,C,C,C,C,C,,C,C,,,,,C,,,,,,,,11,0,0,0
+Wave,C,C,,,,,,,,,,,,,,,,,,,,,,,2,0,0,0
+Raven,C,C,,,,,C,,,,,,,,,,,,,,,,,,3,0,0,0
+,Aura,,,,,,,,,,,,,,,,,,,,,,,,,,,
+SonicBacon,C,C,,C,C,C,C,C,C,,C,C,,,,C,C,,C,,,,,,13,0,0,0
+Marc,C,C,,C,C,C,C,C,C,,C,C,C,,C,,C,,C,,,,,,14,0,0,0
+CurvedKiwi,C,C,,C,C,C,C,C,C,,C,C,,,,,C,,,,,,,,11,0,0,0
+Wearhint,C,C,,C,C,C,C,C,C,,C,C,,,C,,,,,,,,,,11,0,0,0
+Shala,C,C,,,,,,,,,,,,,,,,,,,,,,,2,0,0,0
+Grim,C,C,,,C,C,C,C,,,C,C,,,,,,,,,,,,,8,0,0,0
+h4ziq,C,C,,,C,,C,C,,,,,,,,,,,,,,,,,5,0,0,0
+,Athena,,,,,,,,,,,,,,,,,,,,,,,,,,,
+David,C,C,,C,C,C,C,C,C,,C,C,,,,C,C,,C,,C,,,,14,0,0,0
+Baxter,C,C,,C,C,C,C,C,C,,C,C,,,,R,C,,R,,,,,,11,0,0,2
+PleaseSatanDude,C,C,,C,C,C,C,C,C,,,,,,,,,,,,,,,,7,0,0,0
+,Kratos,,,,,,,,,,,,,,,,,,,,,,,,,,,
+Halliwedge,C,C,,C,C,C,C,C,C,,C,,C,,C,C,C,,C,,C,,,,15,0,0,0
+Bomber,C,C,,,C,C,C,,,,,C,C,,,,,,,,,,,,7,0,0,0
+Jronz,C,C,,,,C,C,,,,C,,,,,,,,,,,,,,5,0,0,0
+,Recruits,,,,,,,,,,,,,,,,,,,,,,,,,,,
+ChillyD,C,C,,,,,,,,,,,,,,,,,,,,,,,,,,
+Endeavor,C,C,,,,,,,,,,,,,,,,,,,,,,,0,0,0,0
+Ghost,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+Biggsy,C,,,,,,,,,,,,,,,,,,,,,,,,,,,
+ItsKen746,C,C,,,,,,,,,,,,,,,,,,,,,,,0,0,0,0
+,Reserves / E-LOA / AWOL,,,,,,,,,,,,,,,,,,,,,,,,,,,
+Mr Kenji,C,C,,C,C,C,C,C,C,,,,,,,,,,,,,,Reserves,,8,0,0,0
+Spartan1zi,C,C,,,,,,,,,,,,,,,,,,,,,E-LOA,,2,0,0,0
+IRISHSNIPER1171,C,C,,C,C,C,C,C,C,,C,,,,,,,,,,,,,,9,0,0,0
+mattB,C,C,,C,C,C,C,C,C,,C,C,,,,,C,,,,,,,,11,0,0,0
+Ikaros,C,C,,C,C,C,C,,C,,,,,,,,,,,,,,,,7,0,0,0
+Marius,C,C,,C,C,C,C,C,C,,C,C,C,,,C,C,,C,,,,E-LOA,,14,0,0,0
+appy_wall,C,C,,,,,,,,,,,,,,,,,,,,,,,2,0,0,0
+Floris,C,C,,C,C,C,,,,,C,,,,,,,,,,,,,,6,0,0,0
+Corn,C,C,,,C,C,,,,,C,C,,,C,,C,,,,,,E-LOA,,8,0,0,0
+Pepik,C,C,,,,,,,,,,,,,,,,,,,,,Reserves,,2,0,0,0
+Floris,C,C,,C,C,C,,,,,C,,,,,,,,,,,,Reserves,,6,0,0,0
+Icer,C,C,,,,,,,,,,,,,,,,,,,,,Reserves,,2,0,0,0
+Nakedpooper,C,C,,C,C,C,C,,,,C,,,,,,,,,,,,Reserves,,7,0,0,0
+Knifetail (Carrier),C,C,,,,C,C,C,C,,,,,,,,,,,,,,,,6,0,0,0
+Chief_IDK,C,C,,C,C,C,C,C,C,,C,C,,,,,,,,,,,Reserves,,10,0,0,0
+RellaFella,C,C,,C,C,C,C,C,C,,C,,,,,,,,,,,,Reserves (27-03-2022),,9,0,0,0
+Tragical,C,C,,C,C,C,C,,,,,C,,,,,,,,,,,,,7,0,0,0
+Sify,C,C,,,,,,,,,,,,,,,,,,,,,,,2,0,0,0
+Arcius,C,C,,C,C,C,C,C,C,,C,C,,,C,R,C,,C,,R,,,,13,0,0,2

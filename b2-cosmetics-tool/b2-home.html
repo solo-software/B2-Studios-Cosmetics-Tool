@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>B2 Studios Cosmetics Tool</title>
+    <meta charset="utf-8">
+    <meta name="description" content="A handy tool for use with the B2 Studios cosmetics system.">
+    <meta property="og:image" content="media/preview.png">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/style.css">
+  </head>
+  <body>
+    <h1 class="title">B2 Studios Cosmetics Tool</h1>
+    <div class="title-divider"></div>
+    <div class="subtitle-container">
+      <p class="subtitle">
+        For use with the B2 Studios cosmetics system. Just select the cosmetics
+        and colours you'd like, and click "generate" to generate a string to
+        send to the B2 bot!
+      </p>
+      <p class="subtitle">Made by Solo.</p>
+    </div>
+    <div class="cosmetic-selector-container">
+      <p class="cosmetic-selector-title">Body:</p>
+      <div class="colour-selector-background" id="body-colour-selector-background">
+        <input type="color" class="colour-selector" id="body-colour-selector" name="body-colour-selector" onInput="selectColour('body')">
+      </div>
+    </div>
+    <div class="cosmetic-selector-container">
+      <p class="cosmetic-selector-title">Mouth:</p>
+      <div class="cosmetic-type-container" id="mouth-type-container">
+        <button class="cosmetic-selector" id="mouth-type-selector" onClick="showCosmeticTypes('mouth')"></button>
+      </div>
+    </div>
+    <div class="cosmetic-selector-container">
+      <p class="cosmetic-selector-title">Hat:</p>
+      <div class="colour-selector-background" id="hat-colour-selector-background">
+        <input type="color" class="colour-selector" id="hat-colour-selector" name="hat-colour-selector" oninput="selectColour('hat')">
+      </div>
+      <div class="cosmetic-type-container" id="hat-type-container">
+        <button class="cosmetic-selector" id="hat-type-selector" onClick="showCosmeticTypes('hat')"></button>
+      </div>
+    </div>
+    <div class="cosmetic-selector-container">
+      <p class="cosmetic-selector-title">Accessory:</p>
+      <div class="colour-selector-background" id="accessory-colour-selector-background">
+        <input type="color" class="colour-selector" id="accessory-colour-selector"name="accessory-colour-selector" oninput="selectColour('accessory')">
+      </div>
+      <div class="cosmetic-type-container" id="accessory-type-container">
+        <button class="cosmetic-selector" id="accessory-type-selector" onClick="showCosmeticTypes('accessory')"></button>
+      </div>
+    </div>
+    <div class="cosmetic-selector-container">
+      <p class="cosmetic-selector-title">Fin:</p>
+      <div class="colour-selector-background" id="fin-colour-selector-background">
+        <input type="color" class="colour-selector" id="fin-colour-selector" name="fin-colour-selector" oninput="selectColour('fin')">
+      </div>
+      <div class="cosmetic-type-container" id="fin-type-container">
+        <button class="cosmetic-selector" id="fin-type-selector" onClick="showCosmeticTypes('fin')"></button>
+      </div>
+    </div>
+    <div class="cosmetic-selector-container">
+      <p class="cosmetic-selector-title">Eyewear:</p>
+      <div class="colour-selector-background" id="eyewear-colour-selector-background">
+        <input type="color" class="colour-selector" id="eyewear-colour-selector" name="eyewear-colour-selector" oninput="selectColour('eyewear')">
+      </div>
+      <div class="cosmetic-type-container" id="eyewear-type-container">
+        <button class="cosmetic-selector" id="eyewear-type-selector" onClick="showCosmeticTypes('eyewear')"></button>
+      </div>
+    </div>
+    <div>
+      <button id="generate-button" onClick="generateString()">Generate</button>
+      <p id="generated-string">
+        (String will appear here)
+      </p>
+    </div>
+    <div style="text-align: center;">
+      <p class="subtitle">
+        Please note, this is still a work in progress. If you find any issues,
+        or have any suggestions, please don't hesitate to contact me via discord!
+      </p>
+    </div>
+  </body>
+  <script src="js/b2CosmeticsScript.js"></script>
+</html>

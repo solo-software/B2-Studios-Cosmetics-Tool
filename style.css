@@ -1,0 +1,87 @@
+:root{
+    --background-colour: #000000;
+    --font-colour: #C62E65;
+    --highlight-colour: #CCA43B;
+}
+body{
+  text-align: center;
+  font-family: Gnuolane;
+  letter-spacing: 2px;
+  background-color: var(--background-colour);
+  color: var(--font-colour);
+  overflow: hidden;
+}
+h1{
+  color: #000;
+  font-size: 16vh;
+  width: 100vw;
+  margin: auto;
+  position: absolute;
+  bottom: 1vh;
+}
+.triangle-up {
+	width: 0;
+	height: 0;
+	border-left: 0 solid transparent;
+	border-right: 0 solid transparent;
+	border-bottom: 100vw solid #FFFFFF;
+  position: fixed;
+  left: 50vw;
+  top: 0;
+  z-index: -1;
+}
+.triangle-up-animate{
+  left: 0vw;
+  border-left: 50vw solid transparent;
+	border-right: 50vw solid transparent;
+  transition: all 1s ease-in-out;
+}
+.project-links-container{
+  text-align: center;
+  display: inline-block;
+  width: 30vw;
+  position: absolute;
+  top: 25vh;
+}
+.project-links-container-left{
+  left: 0;
+}
+.project-links-container-right{
+  right: 0;
+}
+.project-image-link{
+  width: 10vw;
+  height: 10vw;
+  border-radius: 2vw;
+  border-width: 1vw;
+  border-style: solid;
+  border-color: var(--font-colour);
+  background-color: var(--font-colour);
+  transition: all 0.5s ease-in-out;
+}
+.project-image-link:hover{
+  width: 15vw;
+  height: 15vw;
+  transition: all 0.5s ease-in-out;
+}
+.link-caption{
+  margin: auto;
+  font-size: 4vh;
+}
+@font-face {
+  font-family: Gnuolane;
+  src: url('fonts/gnuolane rg.otf');
+}
+::-webkit-scrollbar {
+  width: 1vw;
+}
+::-webkit-scrollbar-track {
+  background: var(--background-colour);
+}
+::-webkit-scrollbar-thumb {
+  background: var(--font-colour);
+  border-radius: 0.5vw;
+}
+::-webkit-scrollbar-thumb:hover {
+  background: var(--highlight-colour);
+}

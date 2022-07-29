@@ -1,0 +1,5 @@
+none default lipstick small morty
+none cap beanie beach_hat top_hat banana bucket_hat beret crown back_cap hard_hat propeller_hat chef_hat
+none goatee moustache bow_tie beard
+none default jewel
+none monocle glasses goggles eyelashes

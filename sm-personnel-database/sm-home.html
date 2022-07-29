@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>SM Personnel Viewer</title>
+    <meta charset="utf-8">
+    <meta name="description" content="A tool for viewing SM personnel.">
+    <meta property="og:image" content="media/preview.png">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/style.css">
+  </head>
+  <body>
+    <h1 id="main-title">SM Personnel Browser</h1>
+    <div class="info-container">
+      <div id="search-container">
+        <input type="text" id="user-search-bar" onClick="clearText()"></input>
+        <input type="button" onClick="searchUser()" id="search-button"></input>
+      </div>
+      <p class="info-display" id="name-display">
+        Name:
+      </p>
+      <p class="info-display" id="rank-display">
+        Rank:
+      </p>
+      <p class="info-display" id="team-display">
+        Team:
+      </p>
+      <div class="info-display" id="ribbon-display-container">
+        <h2 id="ribbon-title">Ribbons:</h2>
+        <p id="ribbon-display">
+          Basic Training:<br>
+          Entry Level:<br>
+          Level 2:<br>
+          Level 3:<br>
+          Level 4:<br>
+          Level 5:<br>
+        </p>
+      </div>
+      <p class="info-display" id="notes-display">
+        Notes:<br>
+      </p>
+      </div>
+    </div>
+  </body>
+  <script src="jquery-3.6.0.min.js"></script>
+  <script src="js/sm-personnel-script.js"></script>
+</html>
