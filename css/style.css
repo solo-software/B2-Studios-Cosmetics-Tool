@@ -53,21 +53,34 @@ body {
   max-width: 18vw;
   width: 100%;
 }
-.colour-selector{
+.colour-selector-background {
+  display: inline-block;
   border-width: 0.5vw;
   border-color: var(--font-colour);
   border-style: solid;
-  padding-left: 4vw;
-  padding-right: 4vw;
-  padding-top: 4vw;
-  padding-bottom: 4vw;
+  width: 8vw;
+  height: 8vw;
   margin-left: 2vw;
   border-radius: 1vw;
   margin: 0.5vw;
   vertical-align: middle;
 }
-.colour-selector:hover{
+
+.colour-selector-background:hover {
   border-color: var(--highlight-colour);
+}
+
+.colour-selector {
+  opacity: 0;
+  box-sizing: content-box;
+  padding: 0;
+  width: 8vw;
+  height: 8vw;
+  margin-left: -0.5vw;
+  margin-top: -0.5vw;
+  border-width: 0.5vw;
+  border-style: solid;
+  border-radius: 1vw;
 }
 .cosmetic-selector{
   border-width: 0.5vw;
@@ -140,19 +153,19 @@ body {
   margin-left: 2vw;
   font-size: 1.4vw;
 }
-#body-colour-selector{
+#body-colour-selector-background{
   background-color: var(--bodyColour);
 }
-#hat-colour-selector{
+#hat-colour-selector-background{
   background-color: var(--hatColour);
 }
-#accessory-colour-selector{
+#accessory-colour-selector-background{
   background-color: var(--accessoryColour);
 }
-#fin-colour-selector{
+#fin-colour-selector-background{
   background-color: var(--finColour);
 }
-#eyewear-colour-selector{
+#eyewear-colour-selector-background{
   background-color: var(--eyewearColour);
 }
 #mouth-type-selector{
