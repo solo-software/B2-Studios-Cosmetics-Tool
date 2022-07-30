@@ -31,6 +31,7 @@ var memberImageError = false;
 function searchUser(){
   var searchValue = document.getElementById("user-search-bar").value;
   var found = false;
+  document.getElementById("user-search-bar").blur();
   for (var i = 0; i < names.length; i++){
     if (names[i].toLowerCase() == searchValue.toLowerCase()){
       found = true;
