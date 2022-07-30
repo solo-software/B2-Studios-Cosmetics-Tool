@@ -70,6 +70,18 @@ body{
   padding: 0.5vw;
   font-size: 4vh;
 }
+#member-photo-display-container{
+  width: 100%;
+  display: none;
+  border-color: var(--font-colour);
+  background-color: var(--font-colour);
+}
+#member-photo-display{
+  width: 100%;
+  margin: 0;
+  border-radius: 2vw;
+  color: var(--background-colour);
+}
 #main-title{
   font-size: 6vh;
   background-color: var(--background-colour);
